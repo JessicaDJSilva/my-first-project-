@@ -16,7 +16,6 @@ body {
 /* header */
 h2 h3 h4 {
     font-family: 'Abel', sans-serif;
-
     color: black;
 }
 
@@ -25,7 +24,7 @@ h2 h3 h4 {
     float: left;
     font-size: 140%;
     letter-spacing: 2px;
-    color: rgb(185, 151, 0);
+    color: rgb(2, 18, 53);
     margin-left: 30px;
     margin-top: 30px;
 
@@ -33,7 +32,7 @@ h2 h3 h4 {
 
 #hero-image {
     width: 100%;
-    height: 600px;
+    height: 500px;
     background: url(../image/brazil-flag.x93f41ece.png) no-repeat center center;
 
 
@@ -59,17 +58,17 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: rgb(185, 151, 0);
+    color:  rgb(2, 18, 53);
     display: block;
 }
 
 nav a:hover {
-    color: blue;
+    color: rgb(28, 184, 36);
     height: 10px
 }
 
 .active {
-    color: blue;
+    color:rgb(28, 184, 36);
     height: 10px
 }
 
@@ -78,20 +77,86 @@ nav a:hover {
     text-align: center;
     margin-top: 30px;
     letter-spacing: 3px;
+    overflow: auto;
+    padding-bottom: 20px;
 }
 
-#introduction h2 {
+#introduction div h2 {
     text-transform: uppercase;
     font-size: 40px;
     margin-bottom: 20px;
-    color: rgb(185, 151, 0);
+    color: rgb(2, 18, 53);
 }
 
-#left-introduction {
-    padding-top: 30px;
-    width: 33%;
+#introduction-container h3 {
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+
+#introduction-container {
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+#left-column-introduction-container {
+    width: 50%;
     float: left;
 }
 
+#left-column-introduction-container p {
+    font-size: 20px;
+    padding: 30px 30px 0px 30px;
+}
+
+#right-column-introduction-container {
+    width: 50%;
+    float: right;
+}
+
+#brazil-map-image {
+    justify-content: center;
+    height: 25rem;
+    display: flex;
+}
+
 /* contact */
+#contact {
+    
+    color:rgb(2, 18, 53); ;
+    padding-top: 20px;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+#contact-table-details{
+    display: inline;
+    border: 4px double thick;
+    text-align: right;
+}
+/* footer */
+
+#social-midia {
+    background-color:rgb(240, 255, 245) ;
+    border-top: 1px solid black;
+    padding-top: 30px;
+    text-align: center;
+}
+#social-midia i {
+    
+    color:rgb(2, 18, 53); 
+}
+#social-midia > li {
+    font-size: 160%;
+    margin: 1px;
+    padding: 5%;
+    display: inline;
+   
+}
+
+#social-midia li h4{
+  padding-top: 10px;
+  font-size:70%;
+}
+
 
