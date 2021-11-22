@@ -8,13 +8,14 @@
 
 body {
     font-family: 'Josefin Sans', sans-serif;
+    
     font-size: 300;
 
 
 }
 
 /* header */
-h2 h3 h4 {
+ h3 h4 {
     font-family: 'Abel', sans-serif;
     color: black;
 }
@@ -25,15 +26,19 @@ h2 h3 h4 {
     font-size: 140%;
     letter-spacing: 2px;
     color: rgb(2, 18, 53);
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    
 
 }
 
 #hero-image {
     width: 100%;
-    height: 500px;
+    height: 600px;
     background: url(../image/brazil-flag.x93f41ece.png) no-repeat center center;
+    background-size: cover;
+    
 
 
 
@@ -53,7 +58,7 @@ nav li {
     font-size: 1.2rem;
     line-height: 1px;
     display: inline-block;
-    margin: 2.5%;
+    margin:30px;
 }
 
 nav a {
@@ -105,6 +110,7 @@ nav a:hover {
 }
 
 #left-column-introduction-container p {
+    font-family: 'Abel', sans-serif;
     font-size: 20px;
     padding: 30px 30px 0px 30px;
 }
@@ -118,29 +124,36 @@ nav a:hover {
     justify-content: center;
     height: 25rem;
     display: flex;
+    border-radius: 40%;
+    
 }
 
-/* contact */
+/* contact e footer */
+
+footer{
+    overflow: hidden;
+    background-color:rgb(240, 255, 245) 
+}
 #contact {
-    
+    font-family: 'Abel', sans-serif;
     color:rgb(2, 18, 53); ;
     padding-top: 20px;
-    border-top: 1px solid black;
     text-align: center;
 }
 
 #contact-table-details{
     display: inline;
     border: 4px double thick;
-    text-align: right;
+    
 }
 /* footer */
 
+
 #social-midia {
     background-color:rgb(240, 255, 245) ;
-    border-top: 1px solid black;
     padding-top: 30px;
     text-align: center;
+
 }
 #social-midia i {
     
