@@ -207,7 +207,7 @@ footer {
 #food-image {
     width: 100%;
     height: 680px;
-    background-image: url(../image/cover-foods.jpg);
+    background-image: url(../image/cover-foods.webp);
     background-size: cover;
     object-fit: contain;
 }
@@ -324,4 +324,44 @@ footer {
     padding: 30px 30px 0px 30px;
     letter-spacing: 2px;
     margin-bottom: 10px;
+}
+
+/* form sing up  */
+#image-background{
+    clear: left;
+    background: url(../image/cataratas-do-iguacu.jpg);
+    background-size:contain;
+    background-position: center;
+    height: 62.5rem;
+}
+
+.signup-form{
+    margin: 150px 10% 0 0;
+    color:black;
+    background-color:rgb(212 249 255 / 60%);
+    max-width:400px;
+    position: absolute;
+    left:10%;
+    padding:30px;
+
+}
+.text-input{
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.submit-buttom{
+    margin-top:20px;
+     border-radius:2px;
+     padding:15px 32px 15px 32px;
+     text-align:center;
+     font-size:100%;
+     background-color:rgb(88, 88, 143);
+     color:black;
+     display:block;
 }
