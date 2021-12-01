@@ -128,7 +128,6 @@ footer {
 }
 
 #contact {
-    font-family: 'Abel', sans-serif;
     color: rgb(2, 18, 53);
     padding-top: 20px;
     text-align: center;
@@ -141,6 +140,32 @@ footer {
 }
 
 /* footer */
+/* form sing up  */
+
+.signup-form {
+    margin-top: 20px;
+    text-align: center;
+    left: 10%;
+    color: black;
+
+}
+
+.text-input {
+    background: rgb(199 214 200 / 0%);
+    color: rgb(117 88 143 / 52%);
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid rgb(2 18 53);
+    border-radius: 2px;
+}
+
+.submit-buttom {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 10px 15px 15px 12px;
+    text-align: center;
+    background-color: rgb(4, 90, 30);
+}
 
 
 #social-midia {
@@ -196,6 +221,7 @@ footer {
 }
 
 #food-p {
+    text-align: center;
     font-family: 'Abel', sans-serif;
     font-size: 20px;
     padding: 30px 30px 0px 30px;
@@ -208,6 +234,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+
 }
 
 #dishes-and-drinks p {
@@ -218,6 +245,8 @@ footer {
     font-size: 20px;
     padding: 30px 30px 0px 30px;
     letter-spacing: 2px;
+
+
 }
 
 #desserts img {
@@ -300,51 +329,11 @@ footer {
     margin-bottom: 10px;
 }
 
-/* form sing up  */
-#image-background {
-    clear: left;
-    background: url(../image/pantanal.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 62.5rem;
-}
-
-.signup-form {
-    margin: 150px 10% 0 0;
-    color: black;
-    background-color: rgb(212 249 255 / 60%);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    padding: 30px;
-
-}
-
-.text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-}
-
-.submit-buttom {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: rgb(88, 88, 143);
-    color: black;
-    display: block;
-}
 
 /* media queries */
 
 @media only screen and (max-width:700px) {
+
     /*img pages */
     #logo {
         text-align: center;
@@ -357,7 +346,7 @@ footer {
         height: 360px;
     }
 
-    #food-image{
+    #food-image {
         background-image: url(../image/food-small-screen.jpg);
         background-size: contain;
         background-position: top;
@@ -370,7 +359,7 @@ footer {
         background-position: top;
         height: 240px;
     }
- 
+
     #dishes-and-drinks img {
         margin-left: 0px;
         margin-right: 0px;
@@ -384,22 +373,23 @@ footer {
         width: 100%;
     }
 
-   
 
-    #photo-places img{
+
+    #photo-places img {
         margin-left: 0px;
         margin-right: 0px;
         width: 100%;
     }
-    
+
     /* nav bar */
 
     nav ul {
         display: inline-block;
         background-color: white
     }
-/* content */
-/* home content*/
+
+    /* content */
+    /* home content*/
     #left-column-introduction-container {
         width: 100%;
 
@@ -410,7 +400,8 @@ footer {
         height: 30%;
         text-align: center;
     }
-/* food content */
+
+    /* food content */
     #food-p p {
         margin: 0px;
         margin-bottom: 10px;
@@ -418,26 +409,29 @@ footer {
     }
 
     #dishes-and-drinks p {
-        margin:0px;
+        margin: 0px;
         margin-bottom: 10px;
     }
 
     #desserts p {
-        margin:0px; 
+        margin: 0px;
         margin-bottom: 10px;
     }
+
     /* place content */
 
-    #Best-place-introduction h2{
-       padding: 0px;
+    #Best-place-introduction h2 {
+        padding: 0px;
         margin-bottom: 10px;
     }
-    #photo-places p{
-        margin:0px; 
+
+    #photo-places p {
+        margin: 0px;
         margin-bottom: 10px;
     }
-    #Best-place-introduction p{
-        margin:0px; 
+
+    #Best-place-introduction p {
+        margin: 0px;
         margin-bottom: 10px;
     }
 
@@ -454,7 +448,7 @@ footer {
 
 
 
-    
+
     #dishes-and-drinks img {
         margin-left: 0px;
         margin-right: 0px;
@@ -468,9 +462,9 @@ footer {
         width: 100%;
     }
 
-   
 
-    #photo-places img{
+
+    #photo-places img {
         margin-left: 0px;
         margin-right: 0px;
         width: 100%;
@@ -484,26 +478,29 @@ footer {
     }
 
     #dishes-and-drinks p {
-        margin:0px;
+        margin: 0px;
         margin-bottom: 10px;
     }
 
     #desserts p {
-        margin:0px; 
+        margin: 0px;
         margin-bottom: 10px;
     }
+
     /* place content */
 
-    #Best-place-introduction h2{
-       padding: 0px;
+    #Best-place-introduction h2 {
+        padding: 0px;
         margin-bottom: 10px;
     }
-    #photo-places p{
-        margin:0px; 
+
+    #photo-places p {
+        margin: 0px;
         margin-bottom: 10px;
     }
-    #Best-place-introduction p{
-        margin:0px; 
+
+    #Best-place-introduction p {
+        margin: 0px;
         margin-bottom: 10px;
     }
 

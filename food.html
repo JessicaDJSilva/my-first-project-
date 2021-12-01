@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Welcome to brazil</title>
+    <title>Brazil Tourist Guide</title>
 </head>
 
 <body>
     <header>
         <a href="index.html">
             <div id="logo">
-                <h1>Welcome to Brazil</h1>
+                <h1>Brazil Tourist Guide</h1>
             </div>
 
         </a>
@@ -23,7 +23,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="food.html" class="active">Culinary</a></li>
                 <li><a href="place.html">Places</a></li>
-                <li><a href="sign-up.html">Sign Up</a></li>
+                
             </ul>
         </nav>
     </header>
@@ -44,7 +44,7 @@
         <div id="food-p">
             <p>
                 Brazilian cuisine is a melting pot of different nations dishes, comprising of European, Native, African,
-                and Japanese influences. This combination comes about due to the rich mixed history of Brazil. Lots
+                and Japanese influences. This combination comes about due to the rich mixed history of Brazil.<br>Lots
                 of unique and delicious dishes can be found in Brazilian restaurants and bakeries, and the variety is
                 heightened even further across the different regions in Brazil, with each state having a distinct
                 culinary identity.
@@ -66,7 +66,7 @@
 
         <img src="assets/image/pao-de-queijo-00-1024x576.jpg" alt="brazilian-cheese-bread">
         <p> Pão de queijo (pronounced pow-ge-kay-ju) is a small golden cheese balls with a crunchy
-            crust, a light, fluffy centre and a slightly tart flavour. They are similar to French gougère but
+            crust, a light, fluffy centre and a slightly tart flavour.<br> They are similar to French gougère but
             are naturally gluten free.
             traditional of the state of minas gerais but loved by all the country.
         </p>
@@ -149,12 +149,25 @@
     </section>
 
 
-
     <footer>
+        <div id="form-section">
+            <form class="signup-form" method="POST">
+                <h3>Sign up for weekly news and recipes from Brazil </h3>
+                <label for="f-name">First Name</label>
+                <input id="f-name" class="text-input" type="text" name="first_name" required />
+                <label for="l-name">Last Name</label>
+                <input id="l-name" class="text-input" type="text" name="last_name" required />
+                <label for="email">Email Address</label>
+                <input id="email" class="text-input" type="email" name="email_address" required />
+                <input class="submit-buttom" type="submit" value="More of Brazil" />
+
+            </form>
+        </div>
+
         <section id=contact>
             <div>
-                <h2>Want More Information About Brazil? </h2>
-                <h3>Contact our agency <i class="fas fa-address-book"></i></h3>
+                <h3>Want more tips where travel in brazil ? </h3>
+                <h3>Contact us! <i class="fas fa-address-book"></i></h3>
             </div>
             <div>
 
@@ -171,22 +184,15 @@
                     </tr>
                     <tr>
                         <th>
-
                             brazil@email.com
-
                         </th>
                     </tr>
-
-
                     <tr>
                         <th>Mon-Fri: 8am-6pm</th>
-
-
                     </tr>
-
-
                 </table>
             </div>
+
 
 
         </section>
@@ -220,6 +226,8 @@
             </li>
 
         </ul>
+
+
 
     </footer>
 
