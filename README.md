@@ -53,7 +53,7 @@ No unfixed bugs to report.
 ## Deployment
 - Make changes in github
 - The changes will be reflected on the master branch
-[live link](https://jessicadjsilva.github.io/my-first-project-/place.html)
+[live link](https://jessicadjsilva.github.io/my-first-project-/)
 
 ## Credit
 - Google fonts for the website fonts.
