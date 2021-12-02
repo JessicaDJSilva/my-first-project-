@@ -3,7 +3,7 @@
 The brazil tourism guide is a website for potential visitors to brazil to help them learn about what brazil can offer for a visitor to the country for the first time.
 
 People who visit the website can see a summary of brazil on the home page and then can choose to learn more about food or places specifically if they want to - the target audience is any adults interested in learning more about the country.
-![Website responsivity tested with amiresponsive.com](https://i.imgur.com/qO9HOPz.png)
+![Website responsivity tested with amiresponsive.com](/images/amiresponsive.png)
 
 ## Features
 #### Navigation Bar
