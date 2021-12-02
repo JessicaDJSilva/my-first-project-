@@ -59,3 +59,4 @@ No unfixed bugs to report.
 - Google fonts for the website fonts.
 - Awesome fonts for the icons used around the website.
 - Social media style taken from Loving Running project.
+- Google images used for all images.
