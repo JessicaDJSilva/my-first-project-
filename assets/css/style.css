@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Josefin+Sans&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+
 * {
     padding: 0px;
     margin: 0px;
@@ -19,6 +22,7 @@ h3 h4 {
 }
 
 #logo {
+    font-family: 'Amatic SC', cursive;
     text-transform: uppercase;
     float: left;
     font-size: 140%;
