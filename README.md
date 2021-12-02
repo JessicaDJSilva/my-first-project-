@@ -34,7 +34,7 @@ This is a section that is on the bottom of every page and promts the user to sig
 #### Home HTML validator
 ![home test](/images/home-test-html.png)
 #### Places HTML validator
-![plsces test](/images/test-html-place.png)
+![places test](/images/test-html-place.png)
 #### CSS validator
 ![css test](/images/test-css.png)
 ## Bugs
@@ -53,7 +53,7 @@ No unfixed bugs to report.
 ## Deployment
 - Make changes in github
 - The changes will be reflected on the master branch
-![live link](https://jessicadjsilva.github.io/my-first-project-/place.html)
+[live link](https://jessicadjsilva.github.io/my-first-project-/place.html)
 
 ## Credit
 - Google fonts for the website fonts.
